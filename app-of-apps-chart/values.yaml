@@ -10,12 +10,12 @@ clusters:
       enabled: true
       branch: HEAD
 
-- name: infant-aks
- destinationServer: https://myaksclust-myresourcegroup-9c2b1f-ea92901b.hcp.eastus.azmk8s.io:443
- apps:
-   prometheus:
-     enabled: true
-     version: "9.7.4"
-   sampleApp:
-     enabled: true
-     branch: HEAD
+# - name: infant-aks
+#  destinationServer: https://myaksclust-myresourcegroup-9c2b1f-ea92901b.hcp.eastus.azmk8s.io:443
+#  apps:
+#    prometheus:
+#      enabled: true
+#      version: "9.7.4"
+#    sampleApp:
+#      enabled: true
+#      branch: HEAD
